@@ -29,3 +29,11 @@ Performance:
 Paket failed with
 -> DirectoryNotFoundException: Could not find a part of the path "/app/packages/tests/Foq/lib/net45/Foq.dll".
 ```
+
+if you look closely at the file path it's
+
+```
+packages/tests/Foq/Lib/net45/Foq.dll
+```
+
+`Lib` is capitalized on the file system but paket is looking for 'lib`
