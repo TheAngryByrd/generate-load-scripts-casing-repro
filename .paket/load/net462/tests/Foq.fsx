@@ -1,0 +1,1 @@
+#r "../../../../packages/tests/Foq/lib/net45/Foq.dll" 

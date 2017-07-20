@@ -1,0 +1,7 @@
+redirects: on
+framework: >= net45
+
+group tests
+    framework: >= net45
+    source https://nuget.org/api/v2
+    nuget Foq
